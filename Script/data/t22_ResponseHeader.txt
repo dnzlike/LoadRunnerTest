@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Content-Encoding: gzip
+Cache-Control: max-age=21600
+Content-MD5: 6/7ZJwnJYPsRe2DcUOoL4g==
+Content-Type: text/xml
+Date: Mon, 10 Jun 2019 03:40:49 GMT
+Etag: 0x8D6D49FFE721A83
+Last-Modified: Thu, 09 May 2019 17:01:35 GMT
+Server: ECAcc (tka/8969)
+Vary: Accept-Encoding
+X-Cache: HIT
+x-ms-blob-type: BlockBlob
+x-ms-lease-status: unlocked
+x-ms-request-id: 6352779d-301e-006d-1415-1f472c000000
+x-ms-version: 2009-09-19
+Content-Length: 27090
+
