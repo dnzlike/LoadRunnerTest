@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--ID:\Repositories\LoadRunnerTest\Script
+-ID:\Repositories\LoadRunnerTest\Scripts\WebTours
 -ID:\SJTU\2018-2019\ST\LoadRunner\include
--ed:\repositories\loadrunnertest\script\\logfile.log
-d:\repositories\loadrunnertest\script\\combined_WebTours.c
-d:\repositories\loadrunnertest\script\\pre_cci.c
+-ed:\repositories\loadrunnertest\scripts\webtours\\logfile.log
+d:\repositories\loadrunnertest\scripts\webtours\\combined_WebTours.c
+d:\repositories\loadrunnertest\scripts\webtours\\pre_cci.c

@@ -1,0 +1,65 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t3.inf",
+                "time": 1560167172354
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t4.inf",
+                "time": 1560167177501
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Submit Form: reservations.pl_2",
+                "infFile": "t5.inf",
+                "time": 1560167182700
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Submit Form: reservations.pl_3",
+                "infFile": "t6.inf",
+                "time": 1560167187860
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Url: welcome.pl_2",
+                "infFile": "t7.inf",
+                "time": 1560167193067
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Submit Form: itinerary.pl",
+                "infFile": "t8.inf",
+                "time": 1560167198199
+            },
+            {
+                "stepId": "STEP23",
+                "stepName": "Image: Home Button",
+                "infFile": "t9.inf",
+                "time": 1560167203397
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "search_and_order",
+                "rawStartTime": 1560167172129,
+                "rawEndTime": 1560167192868,
+                "thinkTime": 20.003655000000003,
+                "wastedTime": 0.19429349899291993
+            },
+            {
+                "transactionName": "browse_and_cancel",
+                "rawStartTime": 1560167192870,
+                "rawEndTime": 1560167198201,
+                "thinkTime": 5.00105,
+                "wastedTime": 0.07600688934326172
+            }
+        ]
+    }
+]

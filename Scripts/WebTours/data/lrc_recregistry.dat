@@ -166,7 +166,7 @@ Registry settings:
 		default	false
 	TestDir
 		(Default)	
-		default	D:\Repositories\LoadRunnerTest\Script\data\
+		default	D:\Repositories\LoadRunnerTest\Scripts\WebTours\data\
 	TrapOnClient
 		default	true
 	TrapOnMainThreadOnly

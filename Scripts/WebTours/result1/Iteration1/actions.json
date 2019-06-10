@@ -1,0 +1,65 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t3.inf",
+                "time": 1560167099858
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t4.inf",
+                "time": 1560167105002
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Form: reservations.pl_2",
+                "infFile": "t5.inf",
+                "time": 1560167110138
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Form: reservations.pl_3",
+                "infFile": "t6.inf",
+                "time": 1560167115281
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: welcome.pl_2",
+                "infFile": "t7.inf",
+                "time": 1560167120536
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Form: itinerary.pl",
+                "infFile": "t8.inf",
+                "time": 1560167125670
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Image: Home Button",
+                "infFile": "t9.inf",
+                "time": 1560167130873
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "search_and_order",
+                "rawStartTime": 1560167099640,
+                "rawEndTime": 1560167120289,
+                "thinkTime": 20.003464,
+                "wastedTime": 0.12367820739746094
+            },
+            {
+                "transactionName": "browse_and_cancel",
+                "rawStartTime": 1560167120291,
+                "rawEndTime": 1560167125672,
+                "thinkTime": 5.001456,
+                "wastedTime": 0.07069969177246094
+            }
+        ]
+    }
+]

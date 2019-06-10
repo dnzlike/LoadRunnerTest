@@ -184,32 +184,17 @@ Failed to get information of process Id: 4772
 Failed to get information of process Id: 14172
 Failed to get information of process Id: 14544
 Failed to get information of process Id: 6744
-PROCESS 0x1f04      vugen.exe
-Failed to get information of process Id: 13648
 Failed to get information of process Id: 3608
 Failed to get information of process Id: 14864
 PROCESS 0x16b4      httpd.exe
 PROCESS 0x1d28      httpd.exe
-Failed to get information of process Id: 10196
-PROCESS 0xf98       rundll32.exe
-PROCESS 0x3710      rundll32.exe
-PROCESS 0x34b8      rundll32.exe
-PROCESS 0x1f84      rundll32.exe
-Failed to get information of process Id: 9532
-Failed to get information of process Id: 10364
-Failed to get information of process Id: 1920
 Failed to get information of process Id: 9420
 Failed to get information of process Id: 10788
 Failed to get information of process Id: 14708
 Failed to get information of process Id: 2212
 Failed to get information of process Id: 10000
-Failed to get information of process Id: 3724
 Failed to get information of process Id: 10400
-Failed to get information of process Id: 11732
-Failed to get information of process Id: 10792
-Failed to get information of process Id: 9344
-Failed to get information of process Id: 416
-Failed to get information of process Id: 9580
-Failed to get information of process Id: 14316
-Failed to get information of process Id: 14468
-Failed to get information of process Id: 8492
+Failed to get information of process Id: 13936
+Failed to get information of process Id: 6960
+PROCESS 0x3264      vugen.exe
+Failed to get information of process Id: 3992

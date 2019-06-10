@@ -1,5 +1,5 @@
-EventId=1312
-RecordingNumber=5
+EventId=1374
+RecordingNumber=6
 
 ActionInfo
 ActionName=Action
@@ -12,7 +12,7 @@ EndActionInfo
 ActionName=vuser_init
 ActionId=2
 ActionFileSize=279400
-ActionDeleted=0
+ActionDeleted=1
 RecordingNumber=5
 EndActionInfo
 
@@ -28,5 +28,12 @@ ActionId=4
 ActionFileSize=22521
 ActionDeleted=0
 RecordingNumber=5
+EndActionInfo
+
+ActionName=vuser_init
+ActionId=5
+ActionFileSize=96265
+ActionDeleted=0
+RecordingNumber=6
 EndActionInfo
 

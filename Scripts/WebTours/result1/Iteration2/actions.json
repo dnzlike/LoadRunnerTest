@@ -1,0 +1,65 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t3.inf",
+                "time": 1560167136123
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t4.inf",
+                "time": 1560167141258
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Form: reservations.pl_2",
+                "infFile": "t5.inf",
+                "time": 1560167146398
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Submit Form: reservations.pl_3",
+                "infFile": "t6.inf",
+                "time": 1560167151552
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: welcome.pl_2",
+                "infFile": "t7.inf",
+                "time": 1560167156787
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Submit Form: itinerary.pl",
+                "infFile": "t8.inf",
+                "time": 1560167161924
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Image: Home Button",
+                "infFile": "t9.inf",
+                "time": 1560167167107
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "search_and_order",
+                "rawStartTime": 1560167135891,
+                "rawEndTime": 1560167156560,
+                "thinkTime": 20.003265,
+                "wastedTime": 0.14166712760925294
+            },
+            {
+                "transactionName": "browse_and_cancel",
+                "rawStartTime": 1560167156562,
+                "rawEndTime": 1560167161926,
+                "thinkTime": 5.000214,
+                "wastedTime": 0.0726017951965332
+            }
+        ]
+    }
+]

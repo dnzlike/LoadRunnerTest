@@ -1,0 +1,59 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flight Selections</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b></h1><blockquote>
+
+
+
+<!--  JSCalculate Server Option -->
+<SCRIPT src="/WebTours/JSCalculate.js">document.write("Included JS file not found")</SCRIPT>
+<!---
+JSCalculate Server Option comment.
+
+This JavaScript will calculate the days in advance",
+for the ticket purchase.  This value is passed along in the 
+hidden form variable - 'advanceDiscount'.  The only way the 
+advance discount variable will change is via this JavaScript,
+the server side CGI scripts do not alter it.  So, in order to
+get the discount, the javascript (or something equivalent)
+must calculate the days in advance.
+
+Cheating will not be allowed - even though the server does not
+adjust the advanceDiscount field, it does double check it if
+it is not zero.
+
+Currently, the airline has discounts for 7, 14, and 21 day in
+advance ticket purchases.
+-->
+<form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded">
+
+<center>
+<!-- From Frankfurt (1) To Portland (5) -->
+<table cellspacing="2" border="0" width="50%">
+<blockquote>Flight departing from <B>Frankfurt</B> to <B>Portland</B> on <B>06/11/2019</B><BR/><BR/><tr bgcolor="#5E7884"><td align="center"><font color="white"><B>Flight</B></font>
+      		<td align="center"><font color="white"><B>Departure time</B>
+      		<td align="center"><font color="white"><B>Cost</B>
+<tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value="150;600;06/11/2019" checked="checked" >Blue Sky Air 150<td align="center">8am<td align="center">$ 600</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value="151;534;06/11/2019">Blue Sky Air 151<td align="center">1pm<td align="center">$ 534</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value="152;567;06/11/2019">Blue Sky Air 152<td align="center">5pm<td align="center">$ 567</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value="153;491;06/11/2019">Blue Sky Air 153<td align="center">11pm<td align="center">$ 491</TD></TR></table>
+
+<P>
+<!-- From Portland (5) To Frankfurt (1) -->
+<table cellspacing="2" border="0" width="50%">
+<blockquote>Flight departing from <B>Portland</B> to <B>Frankfurt</B> on <B>06/12/2019</B><BR/><BR/><tr bgcolor="#5E7884"><td align="center"><font color="white"><B>Flight</B></font>
+      		<td align="center"><font color="white"><B>Departure time</B>
+      		<td align="center"><font color="white"><B>Cost</B>
+<tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="returnFlight" value="510;600;06/12/2019" checked="checked" >Blue Sky Air 510<td align="center">8am<td align="center">$ 600</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="returnFlight" value="511;534;06/12/2019">Blue Sky Air 511<td align="center">1pm<td align="center">$ 534</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="returnFlight" value="512;567;06/12/2019">Blue Sky Air 512<td align="center">5pm<td align="center">$ 567</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="returnFlight" value="513;491;06/12/2019">Blue Sky Air 513<td align="center">11pm<td align="center">$ 491</TD></TR></table>
+
+<input type="hidden" name="numPassengers" value="1"  /><input type="hidden" name="advanceDiscount" value="1"  /><input type="hidden" name="seatType" value="First"  /><input type="hidden" name="seatPref" value="None"  />
+<P><center><table width=80% cellspacing=1><tr><td align=center>
+<input type="image" name="reserveFlights" src="/WebTours/images/button_next.gif" border="0" />
+<td>&nbsp;<td align=center></table></center></form></center>
+</blockquote>
+
+</body>
+</html>
