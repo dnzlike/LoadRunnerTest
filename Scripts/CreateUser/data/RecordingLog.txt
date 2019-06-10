@@ -1,0 +1,292 @@
+[API Trapper      ( 2e8:3574)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (35cc:23d0)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (35cc:20fc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (35cc:20fc)] Load Network Traffic Analyzers:
+[Network Analyzer (35cc:20fc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (35cc:20fc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (35cc:20fc)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (35cc:20fc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (35cc:20fc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (35cc:20fc)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (35cc:20fc)]     Analyzer Module: local_server (value=)
+[Network Analyzer (35cc:20fc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (35cc:3544)] Address lookup for Duewell = 192.168.56.1
+[Net An. Debug    (35cc:3544)] IP address belongs to the VirtualBox, taking the another interface with ip=192.168.80.1
+[Network Analyzer (35cc:20fc)] Address lookup for Duewell = 192.168.56.1
+[Network Analyzer (35cc: acc)] Address lookup for Duewell = 192.168.56.1
+[Network Analyzer (35cc:20fc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (35cc:3544)] "GET /WebTours/"   
+[Network Analyzer (35cc:3544)]   (Sid:  1) Client -> Server @ : 298 bytes (Service=HTTP)
+[Network Analyzer (35cc: acc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (35cc:3544)]   (Sid:  1) Server -> Client : 664 bytes  (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /WebTours/header.html"   
+[Network Analyzer (35cc:3544)]   (Sid:  1) Client -> Server @ : 351 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (35cc:3544)]   (Sid:  2) Client -> Server @ : 362 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  2) Server -> Client : 1097 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (35cc:3544)]   (Sid:  2) Client -> Server @ : 486 bytes (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (35cc:3544)]   (Sid:  1) Client -> Server @ : 487 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  2) Server -> Client : 898 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  1) Server -> Client : 4486 bytes  (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (35cc:3544)]   (Sid:  1) Client -> Server @ : 479 bytes (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /WebTours/home.html"   
+[Network Analyzer (35cc:3544)]   (Sid:  2) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  2) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  1) Server -> Client : 3155 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  1) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (35cc:3544)]   (Sid:  1) Client -> Server @ : 490 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  1) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /favicon.ico"   
+[Network Analyzer (35cc:3544)]   (Sid:  1) Client -> Server @ : 307 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  1) Server -> Client : 424 bytes  (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /cgi-bin/login.pl?username=&password=&getInfo=true"   
+[Network Analyzer (35cc:3544)]   (Sid:  1) Client -> Server @ : 493 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  1) Server -> Client : 2664 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  1) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /WebTours/profileValidate.js"   
+[Network Analyzer (35cc:3544)]   (Sid:  1) Client -> Server @ : 487 bytes (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (35cc:3544)]   (Sid:  2) Client -> Server @ : 519 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  2) Server -> Client : 1055 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  1) Server -> Client : 11601 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (35cc:3544)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer ( 2e8: 598)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 2e8: 598)] Load Network Traffic Analyzers:
+[Network Analyzer ( 2e8: 598)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 2e8: 598)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 2e8: 598)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 2e8: 598)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 2e8: 598)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 2e8: 598)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 2e8: 598)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 2e8: 598)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 2e8:1810)] Address lookup for Duewell = 192.168.56.1
+[Net An. Debug    ( 2e8:1810)] IP address belongs to the VirtualBox, taking the another interface with ip=192.168.80.1
+[Network Analyzer (35cc:20fc)] Address lookup for Duewell = 192.168.56.1
+[Network Analyzer (35cc:20fc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (35cc:1b30)] Address lookup for Duewell = 192.168.56.1
+[Web Request      (35cc:3544)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (35cc:3544)]   (Sid:  3) Client -> Server @ : 739 bytes (Service=HTTP)
+[Network Analyzer (35cc:1b30)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (35cc:3544)]   (Sid:  3) Server -> Client : 2967 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  3) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  3) Connection Terminated (by Server)
+[Web Request      (35cc:3544)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (35cc:3544)]   (Sid:  4) Client -> Server @ : 706 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  4) Server -> Client : 1464 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8: 598)] Address lookup for Duewell = 192.168.56.1
+[Network Analyzer ( 2e8: 598)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (35cc:20fc)] Address lookup for Duewell = 192.168.56.1
+[Network Analyzer (35cc:20fc)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( 2e8: d10)] Address lookup for Duewell = 192.168.56.1
+[Network Analyzer ( 2e8: d10)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( 2e8:3490)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35cc: 1f0)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 2e8:3a4c)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (35cc:3544)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (35cc: acc)] Address lookup for Duewell = 192.168.56.1
+[Network Analyzer (35cc: acc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (35cc:3b80)] Address lookup for Duewell = 192.168.56.1
+[Web Request      (35cc:3544)] "GET /cgi-bin/welcome.pl?page=menus"   
+[Network Analyzer (35cc:3544)]   (Sid:  6) Client -> Server @ : 601 bytes (Service=HTTP)
+[Network Analyzer (35cc:3b80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (35cc:3544)]   (Sid:  6) Server -> Client : 819 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (35cc:3544)]   (Sid:  6) Client -> Server @ : 617 bytes (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (35cc:3544)]   (Sid:  7) Client -> Server @ : 612 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  6) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  7) Server -> Client : 1155 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  7) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (35cc:3544)]   (Sid:  7) Client -> Server @ : 628 bytes (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (35cc:3544)]   (Sid:  6) Client -> Server @ : 630 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  6) Server -> Client : 1030 bytes  (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (35cc:3544)]   (Sid:  6) Client -> Server @ : 628 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  7) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  6) Server -> Client : 985 bytes  (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (35cc:3544)]   (Sid:  7) Client -> Server @ : 628 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  7) Server -> Client : 1048 bytes  (Service=HTTP)
+[Network Analyzer (35cc:2308)] Address lookup for Duewell = 192.168.56.1
+[Network Analyzer (35cc: acc)] Address lookup for Duewell = 192.168.56.1
+[Network Analyzer (35cc:2308)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (35cc: acc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (35cc:3544)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (35cc:3544)]   (Sid:  7) Client -> Server @ : 616 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  7) Server -> Client : 1096 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  7) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (35cc:3544)]   (Sid:  7) Client -> Server @ : 476 bytes (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /WebTours/home.html"   
+[Network Analyzer (35cc:3544)]   (Sid:  6) Client -> Server @ : 572 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  6) Server -> Client : 193 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  7) Server -> Client : 3149 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid:  7) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8: 598)] Address lookup for Duewell = 192.168.56.1
+[Network Analyzer ( 2e8: 598)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (35cc:3544)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (35cc:3544)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer ( 2e8:1c70)] Address lookup for Duewell = 192.168.56.1
+[Web Request      ( 2e8:1810)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer ( 2e8:1810)]   (Sid:  3) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer ( 2e8:1c70)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      ( 2e8:1810)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 2e8:1810)]   (Sid:  4) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  3) Server -> Client : 2589 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  4) Server -> Client : 14600 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  4) Server -> Client : 12816 bytes  (Service=HTTP)
+[Network Analyzer (35cc: 9e0)] Address lookup for Duewell = 192.168.56.1
+[Network Analyzer (35cc: 9e0)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( 2e8:1810)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  4) Server -> Client : 9248 bytes  (Service=HTTP)
+[Web Request      ( 2e8:1810)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 2e8:1810)]   (Sid:  4) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (35cc: acc)] Address lookup for Duewell = 192.168.56.1
+[Network Analyzer ( 2e8:1810)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  4) Server -> Client : 4056 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  4) Server -> Client : 16224 bytes  (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (35cc:3544)]   (Sid: 10) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (35cc: acc)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (35cc:3544)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (35cc:3544)]   (Sid: 11) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 10) Server -> Client : 1129 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 11) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 11) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 11) Server -> Client : 14600 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 11) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 11) Server -> Client : 11680 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 11) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 11) Server -> Client : 9248 bytes  (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (35cc:3544)]   (Sid: 11) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer ( 2e8:12c0)] Address lookup for Duewell = 192.168.56.1
+[Network Analyzer (35cc:3544)]   (Sid: 11) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:12c0)] Request Connection: Remote Server @ 23.48.32.88:80   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (35cc:3544)]   (Sid: 11) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 11) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 11) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 11) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 11) Server -> Client : 16060 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 11) Server -> Client : 9248 bytes  (Service=HTTP)
+[Network Analyzer (35cc: 9e0)] Address lookup for Duewell = 192.168.56.1
+[Network Analyzer (35cc: 9e0)] Request Connection: Remote Server @ 23.48.32.88:80   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      ( 2e8:1810)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Client -> Server @ : 166 bytes (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (35cc:3544)]   (Sid: 12) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 16060 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 14600 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 1964 bytes  (Service=HTTP)
+[Web Request      (35cc:3544)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (35cc:3544)]   (Sid: 12) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 504 bytes  (Service=HTTP)
+[Web Request      ( 2e8:1810)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 16060 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (35cc:3544)]   (Sid: 12) Server -> Client : 1964 bytes  (Service=HTTP)
+[Net An. Error    (35cc: 1f0)] SSLAccept(ssl_id = 186017896 = 0B166868) Failed, ctx = 0D0F96E8, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (35cc: 1f0)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 5840 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  5) Server -> Client : 1964 bytes  (Service=HTTP)
+[Net An. Error    ( 2e8:3490)] SSLAccept(ssl_id = 1933942459072 = 000001C247F40AC0) Failed, ctx = 000001C247F140E0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    ( 2e8:3490)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    ( 2e8:3a4c)] SSLAccept(ssl_id = 1933942502752 = 000001C247F4B560) Failed, ctx = 000001C247F140E0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    ( 2e8:3a4c)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 2e8: c68)] Address lookup for Duewell = 192.168.56.1
+[Network Analyzer ( 2e8:1810)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( 2e8:1810)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer ( 2e8: c68)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (35cc:3544)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer ( 2e8:1f2c)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 2e8:1f2c)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      ( 2e8:1810)] "GET /IE11/1478281996/iecompatviewlist.xml"   
+[Network Analyzer ( 2e8:1810)]   (Sid:  6) Client -> Server @ : 256 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  6) Server -> Client : 467 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  6) Server -> Client : 16383 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  6) Server -> Client : 1 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 2e8:1810)]   (Sid:  6) Server -> Client : 10706 bytes (SSL) (Service=HTTP)

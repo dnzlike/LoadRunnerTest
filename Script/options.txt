@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\SJTU\2018-2019\ST\VuGen\Scripts\WebTours
--ID:\SJTU\2018-2019\ST\LoadRunner\include
--ed:\sjtu\2018-2019\st\vugen\scripts\webtours\\logfile.log
-d:\sjtu\2018-2019\st\vugen\scripts\webtours\\combined_WebTours.c
-d:\sjtu\2018-2019\st\vugen\scripts\webtours\\pre_cci.c

@@ -1,0 +1,38 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP81",
+                "stepName": "Url: WebTours",
+                "infFile": "t1.inf",
+                "time": 1560158538290
+            },
+            {
+                "stepId": "STEP82",
+                "stepName": "Link: sign up now",
+                "infFile": "t2.inf",
+                "time": 1560158538526
+            },
+            {
+                "stepId": "STEP83",
+                "stepName": "Submit Form: login.pl",
+                "infFile": "t3.inf",
+                "time": 1560158538730
+            },
+            {
+                "stepId": "STEP84",
+                "stepName": "Image: button_next.gif",
+                "infFile": "t4.inf",
+                "time": 1560158539009
+            },
+            {
+                "stepId": "STEP85",
+                "stepName": "Image: SignOff Button",
+                "infFile": "t5.inf",
+                "time": 1560158539263
+            }
+        ],
+        "transactions": []
+    }
+]

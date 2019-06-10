@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\SJTU\2018-2019\ST\VuGen\Scripts\CreateUser
+-ID:\SJTU\2018-2019\ST\LoadRunner\include
+-ed:\sjtu\2018-2019\st\vugen\scripts\createuser\\logfile.log
+d:\sjtu\2018-2019\st\vugen\scripts\createuser\\combined_CreateUser.c
+d:\sjtu\2018-2019\st\vugen\scripts\createuser\\pre_cci.c

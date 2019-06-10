@@ -1,0 +1,10 @@
+GET /cgi-bin/welcome.pl?page=menus HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://127.0.0.1:1080/cgi-bin/login.pl
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.7,ja;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+Connection: Keep-Alive
+Cookie: MSO=SID&1560155866&MSO_JSCalc&on&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&jojo&address2&Shanghai&username&user&hash&82&lastName&Bean&address1&DongChuan%20Load&creditCard&&expDate&
+

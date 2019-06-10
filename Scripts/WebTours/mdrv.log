@@ -1,0 +1,44 @@
+Virtual User Script started at: 2019/6/10 16:44:23
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (8ÔÂ 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\Repositories\LoadRunnerTest\Script\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(4): Detected non-resource "http://127.0.0.1:1080/WebTours/header.html" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(4): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(4): Found resource "http://127.0.0.1:1080/WebTours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(4): Found resource "http://127.0.0.1:1080/WebTours/images/webtours.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(4): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(4): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(4): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(4): web_url("WebTours") was successful, 11456 body bytes, 2447 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(14): Notify: Transaction "sign_up_and_login" started.
+Action.c(18): web_link("sign up now") started  	[MsgId: MMSG-26355]
+Action.c(18): Linking to "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(18): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(18): web_link("sign up now") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(24): lr_think_time: 5.00 seconds.
+Action.c(26): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(26): Resource "http://127.0.0.1:1080/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(26): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(26): web_submit_data("login.pl") was successful, 2730 body bytes, 229 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(45): lr_think_time: 4.00 seconds.
+Action.c(47): web_image("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(47): Error -27987: Requested image not found  	[MsgId: MERR-27987]
+Action.c(47): web_image("button_next.gif") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Action.c(47): Notify: Transaction "sign_up_and_login" ended with a "Fail" status (Duration: 9.3369 Think Time: 9.0019 Wasted Time: 0.0660).
+Action.c(47): Notify: Transaction "sign_up_and_login" has 1 error message(s).
+Action.c(47): Notify: The 1st error message associated with transaction "sign_up_and_login" is "Error -27987: Requested image not found"
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
