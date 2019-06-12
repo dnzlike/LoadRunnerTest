@@ -5,60 +5,60 @@
             {
                 "stepId": "STEP3",
                 "stepName": "Url: welcome.pl",
-                "infFile": "t3.inf",
-                "time": 1560167099858
+                "infFile": "t4.inf",
+                "time": 1560322496669
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Submit Data: reservations.pl",
-                "infFile": "t4.inf",
-                "time": 1560167105002
+                "infFile": "t5.inf",
+                "time": 1560322501802
             },
             {
                 "stepId": "STEP5",
                 "stepName": "Submit Form: reservations.pl_2",
-                "infFile": "t5.inf",
-                "time": 1560167110138
+                "infFile": "t6.inf",
+                "time": 1560322506951
             },
             {
                 "stepId": "STEP6",
                 "stepName": "Submit Form: reservations.pl_3",
-                "infFile": "t6.inf",
-                "time": 1560167115281
+                "infFile": "t7.inf",
+                "time": 1560322512091
             },
             {
                 "stepId": "STEP7",
                 "stepName": "Url: welcome.pl_2",
-                "infFile": "t7.inf",
-                "time": 1560167120536
+                "infFile": "t8.inf",
+                "time": 1560322517322
             },
             {
                 "stepId": "STEP8",
                 "stepName": "Submit Form: itinerary.pl",
-                "infFile": "t8.inf",
-                "time": 1560167125670
+                "infFile": "t9.inf",
+                "time": 1560322522445
             },
             {
                 "stepId": "STEP9",
                 "stepName": "Image: Home Button",
-                "infFile": "t9.inf",
-                "time": 1560167130873
+                "infFile": "t10.inf",
+                "time": 1560322527621
             }
         ],
         "transactions": [
             {
                 "transactionName": "search_and_order",
-                "rawStartTime": 1560167099640,
-                "rawEndTime": 1560167120289,
-                "thinkTime": 20.003464,
-                "wastedTime": 0.12367820739746094
+                "rawStartTime": 1560322496453,
+                "rawEndTime": 1560322517099,
+                "thinkTime": 20.002856,
+                "wastedTime": 0.12310504913330078
             },
             {
                 "transactionName": "browse_and_cancel",
-                "rawStartTime": 1560167120291,
-                "rawEndTime": 1560167125672,
-                "thinkTime": 5.001456,
-                "wastedTime": 0.07069969177246094
+                "rawStartTime": 1560322517101,
+                "rawEndTime": 1560322522447,
+                "thinkTime": 5.000187,
+                "wastedTime": 0.05981326103210449
             }
         ]
     }

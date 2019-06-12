@@ -1,10 +1,11 @@
 HTTP/1.1 200 OK
-Date: Mon, 10 Jun 2019 11:44:54 GMT
+Date: Wed, 12 Jun 2019 06:54:45 GMT
 Server: Apache/2.2.21 (Win32)
-Expires: 5s
-Set-Cookie: MTUserInfo=firstName&Jiahui&address2&Shanghai&username&user88&hash&56&lastName&Gu%0A&address1&DongChuan%20Load&creditCard&&expDate&%0A; path=/
+Last-Modified: Mon, 27 May 2013 11:20:22 GMT
+ETag: "800000003cf89-16e-4ddb1559ac980"
+Accept-Ranges: bytes
+Content-Length: 366
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
-Transfer-Encoding: chunked
-Content-Type: text/html; charset=ISO-8859-1
+Content-Type: text/html
 

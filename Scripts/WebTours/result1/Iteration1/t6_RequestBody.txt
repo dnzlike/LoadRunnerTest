@@ -1,4 +1,2 @@
-"firstName=Yihui&lastName=Gu&address1=Dongchuan+Load&address2=Shanghai&pass1=jojo+bean&creditCa"
-"rd=1234567890&expDate=1&oldCCOption=&numPassengers=1&seatType=First&seatPref=None&outboundFlig"
-"ht=151%3B534%3B06%2F11%2F2019&advanceDiscount=1&returnFlight=512%3B567%3B06%2F12%2F2019&JSForm"
-"Submit=off&.cgifields=saveCC&buyFlights.x=36&buyFlights.y=9"
+"outboundFlight=151%3B534%3B06%2F11%2F2019&returnFlight=512%3B567%3B06%2F12%2F2019&numPassenger"
+"s=1&advanceDiscount=1&seatType=First&seatPref=Window&reserveFlights.x=28&reserveFlights.y=9"
