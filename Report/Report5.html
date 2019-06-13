@@ -1,0 +1,940 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+		<title></title>
+		<link href="Properties.css" rel="stylesheet" media="screen">
+		<link href="adv_properties.css" rel="stylesheet" media="screen">
+		<csactions>
+			<csaction name="BC43C8C88" class="Goto Link" type="onevent" val0="Report5.xls" val1="" urlparams="1"></csaction>
+		</csactions>
+		<script src="jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="JSFunctions.js"></script>
+		<script src="highcharts.js"></script>
+		<script src="data.js"></script>
+		<script src="exporting.js"></script>
+		<csscriptdict>
+			<script type="text/javascript" src="CSScriptDict.js"></script>
+		</csscriptdict>
+		<csactiondict>
+			<script type="text/javascript">
+				CSAct[/*CMP*/ 'BC43C8C88'] = new Array(CSGotoLink,/*URL*/ 'Report5.xls','');
+			</script>
+		</csactiondict>
+	</head> 
+	<body class="main">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="sp_10px_row"></td>
+			</tr>
+			<tr>
+				<td>
+					<table cols="2" width="100%" height="20" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+	
+<td class="header_page">Average Transaction Response Time</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="sp_10px_row"></td>
+			</tr>
+			<tr>
+				<td>
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td>
+								<table class="TableSummary" summary="Graph Summary Table">
+		<tr>
+									<tr class="LraFilters">
+									<td class="text_graph_page" id="LraFilters key">
+									    <font class="header_key">Filters:</font>
+									</td>
+									<td class="text_graph_page" id="LraFilters val">
+									    <font class="header_value">Transaction End Status = (Pass), (do not Include Think Time)</font>
+									</td>
+									</tr>
+		<tr>
+									<tr class="LraGranularity">
+									<td class="text_graph_page" id="LraGranularity key">
+									    <font class="header_key">Granularity:</font>
+									</td>
+									<td class="text_graph_page" id="LraGranularity val">
+									    <font class="header_value"> 16 Seconds</font>
+									</td>
+									</tr>
+								</table>
+							</td>
+							<td align="right" valign="top" width="180">
+								<table border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td>Open in Excel</td>
+										<td>&nbsp;&nbsp;</td>
+										<td><button class="bu_toexcel" onclick="CSAction(new Array(/*CMP*/'BC43C8C88'));" name="buttonName" type="button" csclick="BC43C8C88">&nbsp;</button></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="sp_10px_row"></td>
+			</tr>
+			<tr>
+				<td>
+					<div class="pane_full" style="display:none">
+			<tr>
+				<td>
+					<div id="graphContainer" class="pane_full graph">Average Transaction Response Time</div>
+					<div id="xAxisTitle" class="data_tags">Elapsed scenario time mm:ss</div>
+					<div id="yAxisTitle" class="data_tags">Average Response Time (seconds)</div>
+					<div id="Type" class="data_tags">line</div>
+					<div id="Stairs" class="data_tags">false</div>
+					<div id="Percentile" class="data_tags"></div>
+				</td>
+			</tr>
+			<tr>
+				<td class="sp_10px_row"></td>
+			</tr>
+<div class="GraphData" id="GraphSeriesData">
+<table class="GraphData" id="Values_0" title="Action_Transaction">
+<tr>
+<td>0</td><td>0.81690234</td>
+</tr>
+<tr>
+<td>16</td><td>0.83227211</td>
+</tr>
+<tr>
+<td>32</td><td>0.84476156</td>
+</tr>
+<tr>
+<td>48</td><td>1.28118844</td>
+</tr>
+<tr>
+<td>64</td><td>2.30594208</td>
+</tr>
+<tr>
+<td>80</td><td>3.34017438</td>
+</tr>
+<tr>
+<td>96</td><td>4.01737467</td>
+</tr>
+<tr>
+<td>112</td><td>4.78333256</td>
+</tr>
+<tr>
+<td>128</td><td>5.36354595</td>
+</tr>
+<tr>
+<td>144</td><td>6.20159671</td>
+</tr>
+<tr>
+<td>160</td><td>7.54704666</td>
+</tr>
+<tr>
+<td>176</td><td>10.19890451</td>
+</tr>
+<tr>
+<td>192</td><td>21.62694962</td>
+</tr>
+<tr>
+<td>208</td><td>19.23898734</td>
+</tr>
+<tr>
+<td>224</td><td>23.32108328</td>
+</tr>
+<tr>
+<td>240</td><td>29.29316532</td>
+</tr>
+<tr>
+<td>256</td><td>26.39057322</td>
+</tr>
+<tr>
+<td>272</td><td>26.25606929</td>
+</tr>
+<tr>
+<td>288</td><td>19.79052501</td>
+</tr>
+<tr>
+<td>304</td><td>28.76903063</td>
+</tr>
+<tr>
+<td>320</td><td>27.02476308</td>
+</tr>
+<tr>
+<td>336</td><td>23.79905974</td>
+</tr>
+<tr>
+<td>352</td><td>29.78242588</td>
+</tr>
+<tr>
+<td>368</td><td>28.23631106</td>
+</tr>
+<tr>
+<td>384</td><td>25.90311785</td>
+</tr>
+<tr>
+<td>400</td><td>27.49839352</td>
+</tr>
+<tr>
+<td>416</td><td>28.17882541</td>
+</tr>
+<tr>
+<td>432</td><td>29.50917029</td>
+</tr>
+<tr>
+<td>448</td><td>28.8732398</td>
+</tr>
+<tr>
+<td>464</td><td>27.85705442</td>
+</tr>
+<tr>
+<td>480</td><td>24.34853391</td>
+</tr>
+<tr>
+<td>496</td><td>29.60750866</td>
+</tr>
+<tr>
+<td>512</td><td>26.63881839</td>
+</tr>
+<tr>
+<td>528</td><td>21.77946125</td>
+</tr>
+<tr>
+<td>544</td><td>12.40602468</td>
+</tr>
+<tr>
+<td>560</td><td>14.76771299</td>
+</tr>
+<tr>
+<td>576</td><td>6.94644399</td>
+</tr>
+<tr>
+<td>592</td><td>5.64076436</td>
+</tr>
+<tr>
+<td>608</td><td>5.32258665</td>
+</tr>
+<tr>
+<td>624</td><td>4.37930606</td>
+</tr>
+<tr>
+<td>640</td><td>3.58438339</td>
+</tr>
+<tr>
+<td>656</td><td>3.03178207</td>
+</tr>
+<tr>
+<td>672</td><td>1.7386603</td>
+</tr>
+<tr>
+<td>688</td><td>0.87184338</td>
+</tr>
+<tr>
+<td>704</td><td>0.84287251</td>
+</tr>
+<tr>
+<td>720</td><td>0.83008068</td>
+</tr>
+<tr>
+<td>736</td><td>0.8300309</td>
+</tr>
+</table>
+<table class="GraphData" id="Values_1" title="browse_and_cancel">
+<tr>
+<td>0</td><td>0.24546944</td>
+</tr>
+<tr>
+<td>16</td><td>0.25263284</td>
+</tr>
+<tr>
+<td>32</td><td>0.24963671</td>
+</tr>
+<tr>
+<td>48</td><td>0.25579271</td>
+</tr>
+<tr>
+<td>64</td><td>0.27481301</td>
+</tr>
+<tr>
+<td>80</td><td>0.270835</td>
+</tr>
+<tr>
+<td>96</td><td>0.27049338</td>
+</tr>
+<tr>
+<td>112</td><td>0.27973823</td>
+</tr>
+<tr>
+<td>128</td><td>0.27494436</td>
+</tr>
+<tr>
+<td>144</td><td>0.26502507</td>
+</tr>
+<tr>
+<td>160</td><td>0.25684342</td>
+</tr>
+<tr>
+<td>176</td><td>0.28178407</td>
+</tr>
+<tr>
+<td>192</td><td>4.40386825</td>
+</tr>
+<tr>
+<td>208</td><td>1.66491801</td>
+</tr>
+<tr>
+<td>224</td><td>5.14296241</td>
+</tr>
+<tr>
+<td>240</td><td>3.31770129</td>
+</tr>
+<tr>
+<td>256</td><td>4.19695647</td>
+</tr>
+<tr>
+<td>272</td><td>2.72593152</td>
+</tr>
+<tr>
+<td>288</td><td>4.85821677</td>
+</tr>
+<tr>
+<td>304</td><td>4.19942797</td>
+</tr>
+<tr>
+<td>320</td><td>2.32177317</td>
+</tr>
+<tr>
+<td>336</td><td>3.63992009</td>
+</tr>
+<tr>
+<td>352</td><td>3.95997797</td>
+</tr>
+<tr>
+<td>368</td><td>2.93317193</td>
+</tr>
+<tr>
+<td>384</td><td>3.30768628</td>
+</tr>
+<tr>
+<td>400</td><td>2.94603528</td>
+</tr>
+<tr>
+<td>416</td><td>3.44120552</td>
+</tr>
+<tr>
+<td>432</td><td>3.76028615</td>
+</tr>
+<tr>
+<td>448</td><td>4.05939261</td>
+</tr>
+<tr>
+<td>464</td><td>2.80121911</td>
+</tr>
+<tr>
+<td>480</td><td>3.03073962</td>
+</tr>
+<tr>
+<td>496</td><td>4.59715484</td>
+</tr>
+<tr>
+<td>512</td><td>1.89255212</td>
+</tr>
+<tr>
+<td>528</td><td>3.79799957</td>
+</tr>
+<tr>
+<td>544</td><td>4.20716208</td>
+</tr>
+<tr>
+<td>560</td><td>1.24707901</td>
+</tr>
+<tr>
+<td>576</td><td>0.28716869</td>
+</tr>
+<tr>
+<td>592</td><td>0.29714051</td>
+</tr>
+<tr>
+<td>608</td><td>0.31764536</td>
+</tr>
+<tr>
+<td>624</td><td>0.29389618</td>
+</tr>
+<tr>
+<td>640</td><td>0.2893592</td>
+</tr>
+<tr>
+<td>656</td><td>0.29109492</td>
+</tr>
+<tr>
+<td>672</td><td>0.28125239</td>
+</tr>
+<tr>
+<td>688</td><td>0.26751532</td>
+</tr>
+<tr>
+<td>704</td><td>0.25177707</td>
+</tr>
+<tr>
+<td>720</td><td>0.24701183</td>
+</tr>
+<tr>
+<td>736</td><td>0.2632792</td>
+</tr>
+</table>
+<table class="GraphData" id="Values_2" title="login">
+<tr>
+<td>0</td><td>0.2752018</td>
+</tr>
+<tr>
+<td>16</td><td>0.31197653</td>
+</tr>
+<tr>
+<td>32</td><td>0.3219707</td>
+</tr>
+<tr>
+<td>48</td><td>1.40381526</td>
+</tr>
+<tr>
+<td>64</td><td>2.3400775</td>
+</tr>
+<tr>
+<td>80</td><td>3.75236163</td>
+</tr>
+<tr>
+<td>96</td><td>4.13338096</td>
+</tr>
+<tr>
+<td>112</td><td>5.43297536</td>
+</tr>
+<tr>
+<td>128</td><td>6.13592916</td>
+</tr>
+<tr>
+<td>144</td><td>7.93826206</td>
+</tr>
+<tr>
+<td>160</td><td>8.97173415</td>
+</tr>
+<tr>
+<td>176</td><td>12.2120912</td>
+</tr>
+<tr>
+<td>192</td><td>20.3212622</td>
+</tr>
+<tr>
+<td>208</td><td>18.71110057</td>
+</tr>
+<tr>
+<td>224</td><td>22.11161529</td>
+</tr>
+<tr>
+<td>240</td><td>25.12824449</td>
+</tr>
+<tr>
+<td>256</td><td>27.91009579</td>
+</tr>
+<tr>
+<td>272</td><td>26.6873806</td>
+</tr>
+</table>
+<table class="GraphData" id="Values_3" title="logout">
+<tr>
+<td>512</td><td>4.29778031</td>
+</tr>
+<tr>
+<td>528</td><td>0.66969658</td>
+</tr>
+<tr>
+<td>560</td><td>0.17665293</td>
+</tr>
+<tr>
+<td>576</td><td>0.12954775</td>
+</tr>
+<tr>
+<td>592</td><td>0.12633363</td>
+</tr>
+<tr>
+<td>608</td><td>0.11232606</td>
+</tr>
+<tr>
+<td>624</td><td>0.1415701</td>
+</tr>
+<tr>
+<td>640</td><td>0.11322436</td>
+</tr>
+<tr>
+<td>656</td><td>0.12617063</td>
+</tr>
+<tr>
+<td>672</td><td>0.10959022</td>
+</tr>
+<tr>
+<td>688</td><td>0.10865666</td>
+</tr>
+<tr>
+<td>704</td><td>0.11109806</td>
+</tr>
+<tr>
+<td>720</td><td>0.10095333</td>
+</tr>
+<tr>
+<td>736</td><td>0.1016672</td>
+</tr>
+</table>
+<table class="GraphData" id="Values_4" title="search_and_order">
+<tr>
+<td>0</td><td>0.43016052</td>
+</tr>
+<tr>
+<td>16</td><td>0.43453904</td>
+</tr>
+<tr>
+<td>32</td><td>0.44617138</td>
+</tr>
+<tr>
+<td>48</td><td>0.8922733</td>
+</tr>
+<tr>
+<td>64</td><td>1.90519799</td>
+</tr>
+<tr>
+<td>80</td><td>2.90438322</td>
+</tr>
+<tr>
+<td>96</td><td>3.57356164</td>
+</tr>
+<tr>
+<td>112</td><td>4.39328534</td>
+</tr>
+<tr>
+<td>128</td><td>4.89873216</td>
+</tr>
+<tr>
+<td>144</td><td>5.77585842</td>
+</tr>
+<tr>
+<td>160</td><td>7.156242</td>
+</tr>
+<tr>
+<td>176</td><td>10.14353576</td>
+</tr>
+<tr>
+<td>192</td><td>15.85207885</td>
+</tr>
+<tr>
+<td>208</td><td>11.45669745</td>
+</tr>
+<tr>
+<td>224</td><td>17.75715333</td>
+</tr>
+<tr>
+<td>240</td><td>17.02978184</td>
+</tr>
+<tr>
+<td>256</td><td>18.99302775</td>
+</tr>
+<tr>
+<td>272</td><td>17.32932739</td>
+</tr>
+<tr>
+<td>288</td><td>16.45135785</td>
+</tr>
+<tr>
+<td>304</td><td>20.43575826</td>
+</tr>
+<tr>
+<td>320</td><td>17.68545976</td>
+</tr>
+<tr>
+<td>336</td><td>18.50807113</td>
+</tr>
+<tr>
+<td>352</td><td>18.90688676</td>
+</tr>
+<tr>
+<td>368</td><td>18.57472334</td>
+</tr>
+<tr>
+<td>384</td><td>18.37658943</td>
+</tr>
+<tr>
+<td>400</td><td>18.18351399</td>
+</tr>
+<tr>
+<td>416</td><td>18.82247778</td>
+</tr>
+<tr>
+<td>432</td><td>18.58516045</td>
+</tr>
+<tr>
+<td>448</td><td>18.92749004</td>
+</tr>
+<tr>
+<td>464</td><td>18.24529756</td>
+</tr>
+<tr>
+<td>480</td><td>17.87072054</td>
+</tr>
+<tr>
+<td>496</td><td>19.65418631</td>
+</tr>
+<tr>
+<td>512</td><td>16.55575001</td>
+</tr>
+<tr>
+<td>528</td><td>15.85098938</td>
+</tr>
+<tr>
+<td>544</td><td>11.38636436</td>
+</tr>
+<tr>
+<td>560</td><td>10.44143801</td>
+</tr>
+<tr>
+<td>576</td><td>6.37395208</td>
+</tr>
+<tr>
+<td>592</td><td>5.10493315</td>
+</tr>
+<tr>
+<td>608</td><td>4.82438284</td>
+</tr>
+<tr>
+<td>624</td><td>3.90206653</td>
+</tr>
+<tr>
+<td>640</td><td>3.10691796</td>
+</tr>
+<tr>
+<td>656</td><td>2.58125444</td>
+</tr>
+<tr>
+<td>672</td><td>1.3037437</td>
+</tr>
+<tr>
+<td>688</td><td>0.45452213</td>
+</tr>
+<tr>
+<td>704</td><td>0.43965966</td>
+</tr>
+<tr>
+<td>720</td><td>0.43650615</td>
+</tr>
+<tr>
+<td>736</td><td>0.4442239</td>
+</tr>
+</table>
+<table class="GraphData" id="Values_5" title="vuser_end_Transaction">
+<tr>
+<td>512</td><td>4.29799545</td>
+</tr>
+<tr>
+<td>528</td><td>0.66998185</td>
+</tr>
+<tr>
+<td>560</td><td>0.17718946</td>
+</tr>
+<tr>
+<td>576</td><td>0.12983052</td>
+</tr>
+<tr>
+<td>592</td><td>0.1265939</td>
+</tr>
+<tr>
+<td>608</td><td>0.11255653</td>
+</tr>
+<tr>
+<td>624</td><td>0.14181806</td>
+</tr>
+<tr>
+<td>640</td><td>0.11345546</td>
+</tr>
+<tr>
+<td>656</td><td>0.12644373</td>
+</tr>
+<tr>
+<td>672</td><td>0.10980475</td>
+</tr>
+<tr>
+<td>688</td><td>0.10886193</td>
+</tr>
+<tr>
+<td>704</td><td>0.11129903</td>
+</tr>
+<tr>
+<td>720</td><td>0.10115756</td>
+</tr>
+<tr>
+<td>736</td><td>0.1018651</td>
+</tr>
+</table>
+<table class="GraphData" id="Values_6" title="vuser_init_Transaction">
+<tr>
+<td>0</td><td>0.27558279</td>
+</tr>
+<tr>
+<td>16</td><td>0.31233566</td>
+</tr>
+<tr>
+<td>32</td><td>0.3223294</td>
+</tr>
+<tr>
+<td>48</td><td>1.40421523</td>
+</tr>
+<tr>
+<td>64</td><td>2.34048469</td>
+</tr>
+<tr>
+<td>80</td><td>3.7527443</td>
+</tr>
+<tr>
+<td>96</td><td>4.13378976</td>
+</tr>
+<tr>
+<td>112</td><td>5.43354556</td>
+</tr>
+<tr>
+<td>128</td><td>6.13636026</td>
+</tr>
+<tr>
+<td>144</td><td>7.93871276</td>
+</tr>
+<tr>
+<td>160</td><td>8.97221825</td>
+</tr>
+<tr>
+<td>176</td><td>12.2125256</td>
+</tr>
+<tr>
+<td>192</td><td>20.3216544</td>
+</tr>
+<tr>
+<td>208</td><td>18.71148562</td>
+</tr>
+<tr>
+<td>224</td><td>22.1120318</td>
+</tr>
+<tr>
+<td>240</td><td>25.1286339</td>
+</tr>
+<tr>
+<td>256</td><td>27.91046603</td>
+</tr>
+<tr>
+<td>272</td><td>26.6877911</td>
+</tr>
+</table>
+</div>
+<div id="SeriesCount">7</div>
+
+			<tr>
+				<td>
+					<div class="pane_full">
+<table width="100%" class="legendTable">
+<tr class="legendHeader">
+<td class="color_header">
+Color
+</td>
+<td>
+Scale
+</td>
+<td>
+Measurement
+</td>
+<td>
+Minimum
+</td>
+<td>
+Average
+</td>
+<td>
+Maximum
+</td>
+<td>
+Std. Deviation
+</td>
+</tr>
+<tr class="legendRow">
+<td>
+<div class="color_circle" id="color_0" style="background-color: #2C9B82;"></div>
+</td>
+<td>
+1
+</td>
+<td>
+Action_Transaction
+</td>
+<td>
+0.802
+</td>
+<td>
+12.835
+</td>
+<td>
+40.760
+</td>
+<td>
+11.767
+</td>
+</tr>
+<tr class="legendRow">
+<td>
+<div class="color_circle" id="color_1" style="background-color: #D74141;"></div>
+</td>
+<td>
+1
+</td>
+<td>
+browse_and_cancel
+</td>
+<td>
+0.204
+</td>
+<td>
+1.554
+</td>
+<td>
+15.700
+</td>
+<td>
+2.582
+</td>
+</tr>
+<tr class="legendRow">
+<td>
+<div class="color_circle" id="color_2" style="background-color: #F5C500;"></div>
+</td>
+<td>
+1
+</td>
+<td>
+login
+</td>
+<td>
+0.259
+</td>
+<td>
+9.686
+</td>
+<td>
+32.360
+</td>
+<td>
+9.534
+</td>
+</tr>
+<tr class="legendRow">
+<td>
+<div class="color_circle" id="color_3" style="background-color: #2087C9;"></div>
+</td>
+<td>
+1
+</td>
+<td>
+logout
+</td>
+<td>
+0.101
+</td>
+<td>
+0.681
+</td>
+<td>
+12.674
+</td>
+<td>
+2.459
+</td>
+</tr>
+<tr class="legendRow">
+<td>
+<div class="color_circle" id="color_4" style="background-color: #66C2CC;"></div>
+</td>
+<td>
+1
+</td>
+<td>
+search_and_order
+</td>
+<td>
+0.417
+</td>
+<td>
+9.308
+</td>
+<td>
+22.331
+</td>
+<td>
+6.955
+</td>
+</tr>
+<tr class="legendRow">
+<td>
+<div class="color_circle" id="color_5" style="background-color: #A44B6D;"></div>
+</td>
+<td>
+1
+</td>
+<td>
+vuser_end_Transaction
+</td>
+<td>
+0.101
+</td>
+<td>
+0.682
+</td>
+<td>
+12.674
+</td>
+<td>
+2.459
+</td>
+</tr>
+<tr class="legendRow">
+<td>
+<div class="color_circle" id="color_6" style="background-color: #FF7345;"></div>
+</td>
+<td>
+1
+</td>
+<td>
+vuser_init_Transaction
+</td>
+<td>
+0.260
+</td>
+<td>
+9.686
+</td>
+<td>
+32.360
+</td>
+<td>
+9.534
+</td>
+</tr>
+</table>
+
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="sp_10px_row"></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+		</table>
+	</body>
+</html>
